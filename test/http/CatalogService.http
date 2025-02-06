@@ -1,0 +1,7 @@
+@server = http://localhost:4004
+
+
+### Books
+# @name Books_GET
+GET {{server}}/odata/v4/catalog/Books
+
