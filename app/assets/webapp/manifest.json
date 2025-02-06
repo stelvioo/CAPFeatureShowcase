@@ -1,0 +1,29 @@
+{
+  "_version": "1.49.0",
+  "sap.app": {
+    "id": "capfs",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "type": "application",
+    "title": "",
+    "description": "A simple CAP project.",
+    "i18n": "i18n/i18n.properties",
+    "crossNavigation": {
+      "inbounds": {
+        "assets-display": {
+          "semanticObject": "assets",
+          "action": "display",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
+    }
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "capfs.service"
+  }
+}
